@@ -5,25 +5,25 @@ import "./App.css";
 function App() {
 
   const [sights, setSights] = useState(data);
-  const [showMore, setShowMore] = useState(false);
+  
 
   const removeItem = (id) => {
     let newSights = sights.filter((element) => element.id !== id);
     setSights(newSights);
   };
 
-  // const setShowMore = (id) => {
-  //   const newSights = [];
-  //   sights.forEach((sight) => {
-  //     if (sight.id === id) {
-  //       const changedSight = { ...sight, showMore: !sight.showMore };
-  //       newSights.push(changedSight);
-  //     } else {
-  //       newSights.push(sight);
-  //     }
-  //   });
-  //   setSights(newSights);
-  // };
+  const setShowMore = (id) => {
+    const newSights = [];
+    sights.forEach((sight) => {
+      if (sight.id === id) {
+        const changedSight = { ...sight, showMore: !sight.showMore };
+        newSights.push(changedSight);
+      } else {
+        newSights.push(sight);
+      }
+    });
+    setSights(newSights);
+  };
 
   const [t, setT] = useState(0);
   const [datas, setDatas] = useState(data);
@@ -80,7 +80,7 @@ function App() {
         <h1>Top {sights.length} sights in Montreal</h1>
       </div>
       {sights.map((element) => {
-        const { id, name, image, description, rating } = element;
+        const { id, name, image, description, showMore, rating } = element;
         const index = sights.indexOf(element);
 
         return (
@@ -114,7 +114,7 @@ function App() {
                 {showMore ? description : description.substring(0, 240) + "..."}
                 <button
                   className="show"
-                  onClick={() => setShowMore(!showMore)}
+                  onClick={() => setShowMore(id)}
                 >
                   {showMore ? "Show less" : "Show more"}
                 </button>
