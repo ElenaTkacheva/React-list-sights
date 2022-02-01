@@ -1,38 +1,99 @@
-.App {
+body{
+  background: #e0eff1;
+  margin: 0;
+}
+.container {
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  background: rgb(179, 215, 231);
+
+}
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-top: 50px;
+  font-size: 40px;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: rgb(8, 71, 73);
+}
+h3 {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 28px;
+  color: rgb(8, 71, 73);
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+}
+.btnRate {
+  background-color: rgb(179, 215, 231);
+  border: none;
+  font-size: 24px;
+  padding: 28px 20px 10px 20px;
+}
+.item {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  background: #fff;
 }
+.btn {
 
-.App-link {
-  color: #61dafb;
+  background-color: rgb(8, 71, 73);
+  color: #fff;
+  padding: 10px;
+  width: 140px;
+  border: none;
+  text-transform: uppercase;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.buttons > * + * {
+  margin-left: 140px;
+}
+.show {
+  border: none;
+  color: blue;
+  background-color: rgb(179, 215, 231);
+}
+p {
+  width: 900px;
+}
+.btnRemove {
+  border: none;
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.btnDeleteAll {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: rgb(8, 71, 73);
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 18px 44px;
 }
