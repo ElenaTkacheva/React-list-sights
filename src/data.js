@@ -10,6 +10,7 @@ export const data = [
     ],
     description:
       "Notre-Dame Basilica is a basilica in the historic district of Old Montreal, in Montreal, Quebec, Canada. The church is located at 110 Notre-Dame Street West, at the corner of Saint Sulpice Street. It is located next to the Saint-Sulpice Seminary and faces the Place d'Armes square. The interior of the church is amongst the most dramatic in the world and regarded as a masterpiece of Gothic Revival architecture. The vaults are coloured deep blue and decorated with golden stars, and the rest of the sanctuary is decorated in blues, azures, reds, purples, silver, and gold. It is filled with hundreds of intricate wooden carvings and several religious statues",
+    showMore: "",
     rating: 0,
   },
   {
@@ -23,6 +24,7 @@ export const data = [
     ],
     description:
       "The Montreal Museum of Fine Arts is an art museum in Montreal, Quebec, Canada. It is the largest art museum in Canada by gallery space. The museum is located on the historic Golden Square Mile stretch of Sherbrooke Street. The MMFA is spread across five pavilions, and occupies a total floor area of 53,095 square metres, 13,000 of which are exhibition space. With the 2016 inauguration of the Michal and Renata Hornstein Pavilion for Peace, the museum campus was expected to become the eighteenth largest art museum in North America.",
+    showMore: "",
     rating: 0,
   },
   {
@@ -36,6 +38,7 @@ export const data = [
     ],
     description:
       "Mount Royal is a large intrusive rock hill or small mountain in the city of Montreal, immediately west of Downtown Montreal, Quebec, Canada. The best-known hypothesis for the origin of the name Montreal is that the name is taken from Mount Royal. The hill is part of the Monteregian Hills situated between the Laurentians and the Appalachian Mountains. It gave its Latin name, Mons Regius, to the Monteregian chain. The hill consists of three peaks: Colline de la Croix at 233 m, Colline d'Outremont at 211 m, and Westmount Summit at 201 m elevation above mean sea level. ",
+    showMore: "",
     rating: 0,
   },
   {
@@ -49,6 +52,7 @@ export const data = [
     ],
     description:
       "The Montreal Botanical Garden is a large botanical garden in Montreal, Quebec, Canada comprising 75 hectares of thematic gardens and greenhouses. It was designated a National Historic Site of Canada in 2008 as it is considered to be one of the most important botanical gardens in the world due to the extent of its collections and facilities.",
+    showMore: "",
     rating: 0,
   },
   {
@@ -62,6 +66,7 @@ export const data = [
     ],
     description:
       "Saint Joseph's Oratory of Mount Royal is a Roman Catholic minor basilica and national shrine located at 3800 Queen Mary Road on Mount Royal's Westmount Summit in Montreal, Quebec. It is a National Historic Site of Canada and is Canada's largest church, with one of the largest church domes in the world. Founded in 1904 by Saint André Bessette in his patron saint, Saint Joseph's honour, the Oratory was brought alive through the work and ingenuity of numerous architects and thousands of workers in a process spanning six decades. With its monumental scale, Renaissance Revival facade and contrasting Art Deco interior, the Oratory is recognizable not just in Montreal but around the world, attracting more than 2 million visitors and pilgrims to its steps each year.",
+    showMore: "",
     rating: 0,
   },
   {
@@ -75,6 +80,7 @@ export const data = [
     ],
     description:
       "La Ronde is an amusement park in Montreal, Quebec, Canada, built as the entertainment complex for Expo 67, the 1967 World Fair. Today, it is operated by Six Flags under an emphyteutic lease with the City of Montreal, which expires in 2065. It is the largest amusement park in Quebec and second largest in Canada. It is on 59 hectares located on the Northern tip of Saint Helen's Island. This is a man-made extension to the island in the space where the small Ronde Island had been. The park hosts L'International des Feux Loto-Québec, an international fireworks competition. La Ronde is one of three Six Flags parks not to be officially branded as a Six Flags park, Great Escape in Queensbury, New York, and Frontier City in Oklahoma City, Oklahoma being the other two.",
+    showMore: "",
     rating: 0,
   },
 ];
